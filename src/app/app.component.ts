@@ -21,6 +21,36 @@ export class AppComponent {
       url: '/list',
       icon: 'list'
     }
+,
+    {
+      title: 'Informace',
+      url: '/informace',
+      icon: 'list'
+    }
+,
+    {
+      title: 'Nastavení',
+      url: '/nastav',
+      icon: 'list'
+    }
+,
+    {
+      title: 'Stav',
+      url: '/status',
+      icon: 'list'
+    }
+,
+    {
+      title: 'Mandala',
+      url: '/mandala',
+      icon: 'list'
+    },
+    {
+      title: 'Konec',
+      url: '/konec',
+      icon: 'list'
+    }
+
   ];
 
   constructor(

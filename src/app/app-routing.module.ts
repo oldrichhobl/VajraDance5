@@ -14,6 +14,26 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },
+  {
+    path: 'informace',
+    loadChildren: () => import('./informace/informace.module').then( m => m.InformacePageModule)
+  },
+  {
+    path: 'nastav',
+    loadChildren: () => import('./nastav/nastav.module').then( m => m.NastavPageModule)
+  },
+  {
+    path: 'status',
+    loadChildren: () => import('./status/status.module').then( m => m.StatusPageModule)
+  },
+  {
+    path: 'mandala',
+    loadChildren: () => import('./mandala/mandala.module').then( m => m.MandalaPageModule)
+  },
+  {
+    path: 'konec',
+    loadChildren: () => import('./konec/konec.module').then( m => m.KonecPageModule)
   }
 ];
 

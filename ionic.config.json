@@ -1,5 +1,7 @@
 {
   "name": "VajraDance5",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

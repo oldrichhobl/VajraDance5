@@ -36,4 +36,6 @@ Thanks to the following posts and sources, I was able to come up with this solut
 - [Ionic Component: Range](http://ionicframework.com/docs/api/components/range/Range/)
 - [MediaManager isn't getting the correct duration #42](https://github.com/arielfaur/ionic-audio/issues/42)
 - [Cordova Media Capture - Find duration of audio file](https://stackoverflow.com/questions/38266702/cordova-media-capture-find-duration-of-audio-file)
+22.01.2020 úprava Readme.md pro vyzkoušení UTF8 vs Windows 1250
+Oldøich Hobl
 

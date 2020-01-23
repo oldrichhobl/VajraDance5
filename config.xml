@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="cz.dramatik.vajradance" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>VajraDance5</name>
     <description>Ionic/Cordova aplikace.</description>
     <author email="hi@dramatik.cz" href="http://www.dramatik.cz/">Dramatik Team</author>

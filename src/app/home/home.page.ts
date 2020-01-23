@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {
+  Platform
+} from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +9,20 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  subscription: any;
+  constructor( private platform: Platform)
+   {
 
-  constructor() {}
+   }
+
+  ionViewDidEnter(){
+    this.subscription = this.platform.backButton.subscribe(()=>{
+        navigator['app'].exitApp();
+    });
+}
+
+//ionViewWillLeave(){
+//    this.subscription.unsubscribe();
+// }
 
 }

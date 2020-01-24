@@ -16,7 +16,7 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   {
-    path: 'play',
+    path: 'play/:myid',
     loadChildren: () => import('./play/play.module').then(m => m.PlayPageModule)
   },
   {

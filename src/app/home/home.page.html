@@ -24,16 +24,12 @@
 
 <!-- Fill -->
 
-  <ion-back-button>back</ion-back-button>
-  <ion-button expand="block" fill="outline" color="light">
-    Vajra dance
+<ion-list inset="true">
+  <!-- ion-item  [href]="'/detail?id=' + item.id" detail="true" *ngFor="let item of items" -->
+  <ion-button  (click)="zobrPage(item)" detail="true" 
+              *ngFor="let item of items; let idx = index">
+      {{item.title}}
   </ion-button>
-  <ion-button expand="block" fill="outline" color="light">Vajra dance 2</ion-button>
-  <ion-button expand="block" fill="outline" color="light">Vajra dance 3</ion-button>
-
-    <ion-item href="https://ionicframework.com/docs/theming/basics">
-      <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
-      <ion-label>Theme Your App</ion-label>
-    </ion-item>
+</ion-list>
 
 </ion-content>

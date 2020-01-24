@@ -5,6 +5,11 @@ import {
   Platform,
   ToastController
 } from '@ionic/angular';
+
+import { ActivatedRoute, Router } from '@angular/router';
+import { GlobalsService } from "../globals.service";
+
+
 import { DatePipe } from '@angular/common';
 
 import {
@@ -20,8 +25,10 @@ import { Media, MediaObject } from '@ionic-native/media/ngx';
   styleUrls: ['play.page.scss']
 })
 export class PlayPage implements OnInit {
-  title = 'I Have a Dream';
+  title = '* * * * * * * * * * ';
   filename = 'I_Have_a_Dream.mp3';
+  parametr:any; 
+
   curr_playing_file: MediaObject;
   storageDirectory: any;
 
@@ -39,6 +46,9 @@ export class PlayPage implements OnInit {
 
   constructor(
     private platform: Platform,
+    private activatedRoute: ActivatedRoute, private router: Router, 
+    private globals: GlobalsService,
+
     private loadingCtrl: LoadingController,
     private toastCtrl: ToastController,
     private file: File,
@@ -58,18 +68,30 @@ export class PlayPage implements OnInit {
   }
 
   ngOnInit() {
+    console.log("ngOnInit play.page ");
+    console.log(this.activatedRoute.snapshot.paramMap.get('myid'))
+    this.parametr = this.activatedRoute.snapshot.paramMap.get('myid');
+    this.filename = this.parametr;   // zapisem parametr do globalku mistniho
+    this.title  = this.parametr;
+
     this.prepareAudioFile();
   }
 
   prepareAudioFile() {
-    let url =
-      'https://ia800207.us.archive.org/29/items/MLKDream/MLKDream_64kb.mp3';
+    /* let url =
+      'https://ia800207.us.archive.org/29/items/MLKDream/MLKDream_64kb.mp3';  
+    */
+
+    let url = 'https://www.dramatik.cz/VajraDance/' + this.filename;
+    console.log("prepareAudioFile: " + url);  
     this.platform.ready().then(() => {
       this.file
         .resolveDirectoryUrl(this.storageDirectory)
         .then(resolvedDirectory => {
           // inspired by: https://github.com/ionic-team/ionic-native/issues/1711
           console.log('resolved  directory: ' + resolvedDirectory.nativeURL);
+          console.log('*this.filename =  ' + this.filename);
+          
           this.file
             .checkFile(resolvedDirectory.nativeURL, this.filename)
             .then(data => {

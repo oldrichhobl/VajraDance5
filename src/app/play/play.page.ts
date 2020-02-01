@@ -77,6 +77,14 @@ export class PlayPage implements OnInit {
     this.prepareAudioFile();
   }
 
+  ionViewWillLeave()
+  {
+    console.log("Play ionViewWillLeave ");
+    this.stopPlayRecording();
+
+  }
+
+  
   prepareAudioFile() {
     /* let url =
       'https://ia800207.us.archive.org/29/items/MLKDream/MLKDream_64kb.mp3';  

@@ -1,9 +1,28 @@
+
+
+  ion-content {
+    --background: black;
+    color: white;
+  }
+  .ion-text-center {
+    background: black;
+    color: white;
+  }
+
+  #imgp {
+    animation: moveman 5s linear infinite;
+  }
+  @keyframes moveman {
+    100% { transform: rotate(360deg);
+    }
+  }
+
 .avatar {
   display: block;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/82/8d/9c/828d9ce86050123bd1ec659604fab945.jpg');
+  /* background-image: url('https://s-media-cache-ak0.pinimg.com/originals/82/8d/9c/828d9ce86050123bd1ec659604fab945.jpg'); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

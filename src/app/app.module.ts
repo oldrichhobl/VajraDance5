@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 import { DatePipe } from '@angular/common';
 
-import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { IonicModule, IonicRouteStrategy} from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
@@ -13,7 +13,6 @@ import {
   FileTransferObject
 } from '@ionic-native/file-transfer/ngx';
 import { Media } from '@ionic-native/media/ngx';
-
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';

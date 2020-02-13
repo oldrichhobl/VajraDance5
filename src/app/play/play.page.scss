@@ -12,6 +12,12 @@
   #imgp {
     animation: moveman 5s linear infinite;
   }
+
+  #imgp:hover
+  {
+      animation-play-state: paused;
+  }
+
   @keyframes moveman {
     100% { transform: rotate(360deg);
     }

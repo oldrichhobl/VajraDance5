@@ -1,0 +1,377 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200809.172152.2468.0.001.json",
+    "dumpEventTime": "2020-08-09T17:21:52Z",
+    "dumpEventTimeStamp": "1596986512566",
+    "processId": 2468,
+    "cwd": "D:\\_IONIC5\\VajraDance5",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\_IONIC5\\VajraDance5\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.7.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.7.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.7.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz",
+        "speed": 3104,
+        "user": 1363187,
+        "nice": 0,
+        "sys": 1320281,
+        "idle": 18648765,
+        "irq": 130062
+      }
+    ],
+    "host": "DESKTOP-JAUB1BD"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6028c6b89",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6028ca4fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6028c94a8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6029b33db",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff60319a3de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff60318272a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff603013e3c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff602ff1e23",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff602ff017b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6030195ad",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff60301b14e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff603012003",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff603010894",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff60302f375",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff602de55a3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6035b982d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002414dcebb44",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 475570176,
+    "totalCommittedMemory": 475570176,
+    "usedMemory": 428036656,
+    "availableMemory": 1759740416,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16757248,
+        "used": 1599824,
+        "available": 15157424
+      },
+      "old_space": {
+        "memorySize": 382349312,
+        "committedMemory": 382349312,
+        "capacity": 369653720,
+        "used": 369283704,
+        "available": 370016
+      },
+      "code_space": {
+        "memorySize": 2785280,
+        "committedMemory": 2785280,
+        "capacity": 1393248,
+        "used": 1393248,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1839104,
+        "committedMemory": 1839104,
+        "capacity": 1120960,
+        "used": 1120960,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 54730752,
+        "committedMemory": 54730752,
+        "capacity": 54603408,
+        "used": 54603408,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 19.39,
+    "kernelCpuSeconds": 4.484,
+    "cpuConsumptionPercent": 99.475,
+    "maxRss": 514535424,
+    "pageFaults": {
+      "IORequired": 236195,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 4834,
+      "writes": 114
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "allusersprofile": "C:\\ProgramData",
+    "appdata": "C:\\Users\\olda\\AppData\\Roaming",
+    "commonprogramfiles": "C:\\Program Files\\Common Files",
+    "commonprogramfiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "commonprogramw6432": "C:\\Program Files\\Common Files",
+    "computername": "DESKTOP-JAUB1BD",
+    "comspec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "cygwin": "mintty",
+    "dp0": "D:\\_IONIC5\\VajraDance5\\node_modules\\.bin\\",
+    "driverdata": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "eset_options": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "force_color": "1",
+    "FORCE_COLOR": "1",
+    "gyp_msvs_version": "2015",
+    "homedrive": "C:",
+    "homepath": "\\Users\\olda",
+    "ionic_cli_bin": "C:\\Users\\olda\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic",
+    "ionic_cli_lib": "C:\\Users\\olda\\AppData\\Roaming\\npm\\node_modules\\ionic",
+    "ionic_cli_local_error": "LOCAL_CLI_NOT_FOUND",
+    "JEST_WORKER_ID": "3",
+    "localappdata": "C:\\Users\\olda\\AppData\\Local",
+    "logonserver": "\\\\DESKTOP-JAUB1BD",
+    "number_of_processors": "8",
+    "onedrive": "C:\\Users\\olda\\OneDrive",
+    "onedriveconsumer": "C:\\Users\\olda\\OneDrive",
+    "openssl_ia32cap": "~0x1000000000000000",
+    "os": "Windows_NT",
+    "path": "D:\\_IONIC5\\VajraDance5\\node_modules\\.bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\ArcSoft\\Bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Calibre2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSH\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile\\;C:\\Program Files (x86)\\Common Files\\Acronis\\VirtualFile64\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\nodejs\\;C:\\Users\\olda\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\olda\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\olda\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\olda\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\olda\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\olda\\AppData\\Roaming\\npm;C:\\Gradle\\gradle-6.0.1\\bin;;C:\\Users\\olda\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+    "pathext": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "processor_architecture": "AMD64",
+    "processor_identifier": "Intel64 Family 6 Model 26 Stepping 5, GenuineIntel",
+    "processor_level": "6",
+    "processor_revision": "1a05",
+    "programdata": "C:\\ProgramData",
+    "programfiles": "C:\\Program Files",
+    "programfiles(x86)": "C:\\Program Files (x86)",
+    "programw6432": "C:\\Program Files",
+    "prompt": "$P$G",
+    "psmodulepath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "public": "C:\\Users\\Public",
+    "sessionname": "Console",
+    "systemdrive": "C:",
+    "systemroot": "C:\\WINDOWS",
+    "temp": "C:\\Users\\olda\\AppData\\Local\\Temp",
+    "tmp": "C:\\Users\\olda\\AppData\\Local\\Temp",
+    "tmpdir": "C:\\Users\\Public\\Documents\\Wondershare\\CreatorTemp",
+    "userdomain": "DESKTOP-JAUB1BD",
+    "userdomain_roamingprofile": "DESKTOP-JAUB1BD",
+    "username": "olda",
+    "userprofile": "C:\\Users\\olda",
+    "vs140comntools": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
